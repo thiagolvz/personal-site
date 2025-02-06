@@ -1,7 +1,52 @@
 .top-container {
-    
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 
 .img-background {
     width: 100%;
+    display: block;
+    object-fit: cover;
 }
+
+.gif-overlay {
+    height: 150px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}
+
+.title-text {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.ola-title {
+    font-size: 30px;
+}
+
+.name-title {
+    color: #154585;
+}
+
+.top-buttons {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+.top-buttons button {
+   margin-right: 10px;
+}
+
+.top-buttons a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
