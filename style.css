@@ -1,52 +1,67 @@
-.top-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-background {
-    width: 100%;
-    display: block;
-    object-fit: cover;
+#about {
+    background-color: #f7f7f7;
 }
 
-.gif-overlay {
-    height: 150px;
-    position: absolute;
-    top: 25%;
-    left: 75%;
+#about h1 {
+    font-size: 3rem;
+    font-weight: bold
 }
 
-.title-text {
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    font-family: "Inter", sans-serif;
-    font-weight: bolder;
-    font-size: 40px;
-    line-height: normal;
+#about p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #5e5e5e;
 }
 
-.ola-title {
-    font-size: 30px;
+#skills {
+    background-color: white;
 }
 
-.name-title {
-    color: #154585;
+#skills h2 {
+    font-size: 2.5rem;
 }
 
-.top-buttons {
-    position: absolute;
-    top: 5%;
-    left: 75%;
+#projetos {
+    background-color: #f7f7f7;
 }
 
-.top-buttons button {
-   margin-right: 10px;
+#projetos h2 {
+    font-size: 2.5rem;
 }
 
-.top-buttons a {
-    text-decoration: none; 
-    color: inherit; 
+#contato {
+    background-color: white;
 }
+
+#contato h2 {
+    font-size: 2.5rem;
+}
+
+#contato p {
+    font-size: 1.2rem;
+}
+
+#contato a {
+    text-decoration: none;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
 
